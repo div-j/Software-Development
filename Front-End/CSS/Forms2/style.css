@@ -1,0 +1,54 @@
+
+body{
+ margin: 0;
+ padding: 0;
+}
+ 
+ #login{
+     background-color: #1877f2;
+     color: white;
+     
+ }
+ 
+ main{
+     padding: 20px;
+     margin: 0px 100px;
+     text-align: center;
+ }
+ .a  {
+     
+ 
+ line-height: 22px;
+ width: 100%;
+ padding: 14px 16px;
+ box-sizing: border-box;
+
+
+ }
+ .b{
+     width: 100%;
+
+ }
+ input{
+     
+     border-radius: 6px;
+     padding: 14px 16px;
+     box-sizing: border-box;
+     border: solid 1px grey;
+
+
+
+ }
+ #cna{
+     background-color: #42b72a;
+     color: white;
+ }
+
+ a{
+     text-decoration: none;
+ }
+ #form_con{
+box-shadow: 2px 2px 7px grey;
+padding: 26px 3px;
+
+ }

@@ -1,0 +1,73 @@
+body{
+    display: flex;
+justify-content: center;
+}
+
+main{
+
+    padding: 30px ;
+    text-align: center;
+  
+ }
+ /* the form container */
+ #form_section{
+    padding: 15px;
+    box-shadow: 2px 2px 5px gray;
+    border-radius: 5px;
+ }
+ /* email and password inputs */
+ .first_2_input{
+margin: 5px 0px;
+padding: 10px;
+border-radius: 5px;
+border: solid 1px grey;
+width: 100%;
+box-sizing: border-box;
+}
+
+/* Login button  */
+#loginbtn{
+    width: 100%;
+border-radius: 5px;
+border: none;
+background-color: #1877F2;
+padding: 10px;
+margin: 5px 0px;
+color: white;
+font-weight: bolder;
+}
+/* forgotten account link */
+a{
+    font-size: 12px;
+    text-decoration: none;
+    margin-top: 5px 0px;
+}
+
+/* create new account button */
+#cna{
+    background-color: #42b72a;
+    color: white;
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+/* the hr lines and or */
+#flex_container{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+#flex_container>p{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+input[type="password"]{
+    font-size: 12px;
+    font-weight: 2px;
+}
+input[type='text']{
+    font-size: 12px;
+}

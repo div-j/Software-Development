@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      main {
+        text-align: center;
+        margin: 30px;
+        padding: 20px;
+        display: grid;
+        justify-content: center;
+
+      }
+
+      #top_text {
+        line-height: 5px;
+      }
+
+      #form_container {
+        border-top: solid 1px;
+        padding-top: 10px;
+        padding: 20px;
+      }
+
+      #container {
+        padding: 2px 0px 15px 0px;
+        box-shadow: 2px 2px 5px grey;
+        border-radius: 6px;
+        max-width: 420px;
+      }
+
+      #inp_container {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 0px 10px;
+      }
+      .First_4 {
+        box-sizing: border-box;
+        width: 100%;
+        margin: 5px;
+        padding: 6px;
+        border-radius: 4px;
+        border: solid 1px #ccc;
+        font-size: 12px;
+        color: #ccc;
+      }
+      #gen_container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+      }
+
+      .gen{
+        
+        border: solid 1px #ccc;
+        padding: 6px;
+        margin: 5px;
+        border-radius: 5px;
+      }
+      p{
+        font-size: 10px;
+      }
+      a{
+        text-decoration: none;
+        color: #1877f2;
+      }
+      button{
+        background-color: #00a400 ;
+        color: white;
+        border: none;
+        padding: 5px 32px;
+        border-radius: 6px;
+        margin-bottom: 10px;
+      }
+      .DOB{
+        width: 100%;
+        margin: 5px;
+      }
+      .DOB select{
+        width: 32.2%;
+        padding: 5px;
+        padding-left: 3px;
+        border-radius: 5px;
+        border: solid 1px #ccc;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section>
+        <img width="200px" src="/images/fblogo.svg" alt="" />
+      </section>
+      <section id="container">
+        <div id="top_text">
+          <h3>Create a new account</h3>
+          <p>It's quick and easy.</p>
+        </div>
+        <div id="form_container">
+          <form action="">
+            <aside></aside>
+            <section id="inp_container">
+              <div>
+                <input class="First_4" type="text" placeholder="First name" />
+              </div>
+              <div>
+       
+                <input class="First_4" type="text" placeholder="Surname" />
+              </div>
+            </section>
+
+            <div>
+              <input class="First_4"  type="text" placeholder="Mobile number or email address" />
+            </div>
+            <div>
+              <input class="First_4 " type="password" placeholder="New password" />
+            </div>
+            <div style="text-align: left; font-size: 12px; margin:10px 0 0 6px ; color: grey;">
+              Date of Birth <span style="background-color: black; border-radius: 50%; color: #ccc; font-size: x-small; padding: 0 2px;" >?</span> 
+            </div>
+            <div class="DOB">
+              <select>
+                <option value="12">12</option>
+                <option value="13">13</option>
+              </select>
+              <select>
+                <option value="feb">Feb</option>
+                <option value="Mar">Mar</option>
+              </select>
+              <select>
+                <option value="2024">2024</option>
+                <option value="13">2025</option>
+              </select>
+            </div>
+            <div style="text-align: left; font-size: 12px; margin:10px 0 0 6px ; color: grey;">
+              Gender <span style="background-color: black; border-radius: 50%; color: #ccc; font-size: x-small; padding: 0 2px;" >?</span>
+            </div>
+            <div id="gen_container">
+              <div class="gen">
+                <label for="female">
+                  Female
+                  <input type="radio" name="female-male-custom" />
+                </label>
+              </div>
+
+              <div class="gen">
+                <label for="male">
+                  Male
+                  <input type="radio" name="female-male-custom" />
+                </label>
+              </div>
+              <div class="gen">
+                <label for="custom">
+                  Custom
+                  <input type="radio" name="female-male-custom" />
+                </label>
+              </div>
+            </div>
+            <div>
+              <p>
+                People who use our service may have uploaded your contact
+                information to Facebook. 
+                <a href="">Learn more.</a>
+              </p>
+              <p>
+                By clicking Sign Up, you agree to our Terms, Privacy Policy and
+                Cookies Policy. You may receive SMS notifications from us and
+                can opt out at any time.
+              </p>
+            </div>
+            <div>
+              <button>Sign Up</button>
+            </div>
+            <div>
+              <a href="./singin.html">Already have an account ?</a>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
